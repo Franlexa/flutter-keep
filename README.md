@@ -26,3 +26,18 @@ Web app screenshots:
 [license-badge]: https://img.shields.io/github/license/xinthink/flutter-keep
 [license]: https://github.com/xinthink/flutter-keep/blob/master/COPYING
 [series of stories]: https://medium.com/flutter-community/build-a-note-taking-app-with-flutter-firebase-part-i-53816e7a3788
+
+### Changes:
+- Added DartDoc comments to `widget.dart`, `screen.dart`, and other relevant files.
+- Documented exported widgets and screens to improve code readability and maintainability.
+
+## Installations ##
+To set the environment to generation documentation,run thre following command:
+
+dart pub global activate dartdoc
+
+
+### Instructions for Generating Documentation:
+To generate reference documentation for the project, run the following command:
+```bash
+dart doc
